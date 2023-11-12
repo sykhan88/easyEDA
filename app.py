@@ -11,7 +11,7 @@ import numpy as np
 import math
 
 # update to your path
-data_url = "~/coding/kaggle/housing/data/train.csv"
+data_url = "train.csv"
 
 @st.cache_data
 def load_data(url):
